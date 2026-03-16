@@ -1,0 +1,6 @@
+timestamp,match_id,league,home_team,away_team,selection,odds,bookmaker,model_prob,implied_prob,expected_value,value_pct,lambda_home,lambda_away,stake_amount,stake_pct,commence_time
+2026-03-10T14:27:41.685136,demo_003,Serie A,Napoli,Juventus,Home,2.4,Pinnacle,0.7936,0.4167,0.9046,90.46,3.11,0.97,50.0,0.05,2026-03-16T18:00:00+00:00
+2026-03-10T14:27:41.685136,demo_002,La Liga,Real Madrid,Barcelona,Home,2.1,Pinnacle,0.8644,0.4762,0.8152,81.52,3.44,0.76,50.0,0.05,2026-03-15T20:00:00+00:00
+2026-03-10T14:27:41.685136,demo_004,Bundesliga,Bayern Munich,Borussia Dortmund,Home,1.65,Pinnacle,0.9496,0.6061,0.5668,56.68,4.9,0.72,50.0,0.05,2026-03-16T15:30:00+00:00
+2026-03-10T14:27:41.685136,demo_005,Ligue 1,PSG,Marseille,Home,1.55,Pinnacle,0.9793,0.6452,0.5179,51.79,6.0,0.61,50.0,0.05,2026-03-17T21:00:00+00:00
+2026-03-10T14:27:41.685136,demo_001,Premier League,Manchester City,Arsenal,Away,4.2,Betfair,0.2703,0.2381,0.1353,13.53,1.97,1.39,10.57,0.0106,2026-03-15T15:00:00+00:00
