@@ -31,35 +31,7 @@ python stock_screener_mvp.py
 
 ---
 
-### 2. `btc_macd_atr_strategy.py` — Estrategia Algorítmica BTC
-
-Estrategia de trading para **BTC/USDT** (1h) consumiendo datos en tiempo real de la **API de Binance**.
-
-**Indicadores:**
-- **EMA 50** — filtro de tendencia
-- **MACD (12, 26, 9)** — señal de cruce
-- **ATR 14** — gestión de riesgo dinámica
-
-**Condiciones de entrada:**
-
-| Señal | Condición |
-|---|---|
-| 🟢 LONG | Cruce alcista MACD + Precio > EMA 50 |
-| 🔴 SHORT | Cruce bajista MACD + Precio < EMA 50 |
-
-**Gestión de riesgo (ratio 1:1.5):**
-```
-Stop Loss  = Precio ± 1.0 × ATR
-Take Profit = Precio ± 1.5 × ATR
-```
-
-```bash
-python btc_macd_atr_strategy.py
-```
-
----
-
-### 3. `predictor.py` — Predictor de Precios
+### 2. `predictor.py` — Predictor de Precios
 
 Script de predicción de precios con modelos estadísticos.
 
