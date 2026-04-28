@@ -1,0 +1,14 @@
+# ─── Python ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ─── PyInstaller (build artifacts) ───────────────
+build/
+dist/
+*.spec
+
+# ─── Archivos de sistema ──────────────────────────
+.DS_Store
+Thumbs.db
+*.log

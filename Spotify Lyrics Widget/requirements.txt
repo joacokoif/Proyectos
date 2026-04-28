@@ -1,0 +1,2 @@
+winsdk>=0.1.0
+syncedlyrics>=0.4.0
